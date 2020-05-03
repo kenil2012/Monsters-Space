@@ -33,7 +33,8 @@ class App extends Component{
          <SearchBox changeEvent={this.changeEvent} 
          placeholder="Search monsters"
          />
-         <CardList monsters={filteredMonsters} /> 
+         <CardList monsters={filteredMonsters}>
+         </CardList> 
       </div>
      )
     
